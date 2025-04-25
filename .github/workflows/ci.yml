@@ -22,6 +22,8 @@ jobs:
 
       - name: Flutter test
         run: |
+          make test
+          make test2
           echo RUNNER_OS=$RUNNER_OS
           echo RUNNER_ARCH=$RUNNER_ARCH
           echo RUNNER_TOOL_CACHE=$RUNNER_TOOL_CACHE
